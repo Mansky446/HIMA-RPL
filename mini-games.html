@@ -6,11 +6,7 @@
     <title>HRPL</title>
     <link rel="stylesheet" href="css/font.css">
     <link rel="stylesheet" href="css/style.css">
-
-    <!--
-        CSS dan JS Custom kalian disini
-    -->
-    
+    <link rel="stylesheet" href="css/mini-games.css">
 </head>
 <body>
     <header>
@@ -24,11 +20,11 @@
         </section>
         <nav id="big-nav-bar" class="custom-geometry shadowed bordered">
             <div class="content">
-                <button disabled>HOME</button>
+                <button>HOME</button>
                 <button>ABOUT</button>
                 <button>DIVISION</button>
                 <button>PROJECT & NEWS</button>
-                <button>MINI GAMES</button>
+                <button disabled>MINI GAMES</button>
             </div>
         </nav>
         <section>
@@ -36,11 +32,26 @@
         </section>
     </header>
     <main>
-        
-        <!--
-            Cuontent kalian disini
-        -->
-
+        <section id="body-container">
+            <div id="card" class="custom-geometry shadowed bordered">
+                <div class="content">
+                    <section>
+                        <div>
+                            <h2>Hai, RPLearners!!</h2>
+                            <p>Udah siap menentukan di Divisi mana yang "KAMU BANGET?"</p>
+                            <p>YUK LANGSUNG MULAI AJA! 🚀</p>
+                        </div>
+                        <img src="images/maskot-finder-bordered.png" alt="">
+                    </section>
+                    <button id="play-mini-game-button" class="custom-geometry shadowed bordered custom-button">
+                        <div class="content"><p class="silkscreen-font-adjusted">PLAY MINI GAME</p><span class="pixelated-arrow"></span></div>
+                    </button>
+                    <section>
+                        <p>⏱️ 15 pertanyaan · 🎁 Ada hadiah di akhir!</p>
+                    </section>
+                </div>
+            </div>
+        </section>
         <footer>
             <section>
                 <section class="hrpl-logo">
@@ -108,14 +119,5 @@
             </clipPath>
         </defs>
     </svg>
-
-    <!--
-        Custom SVG disini
-        Pastiin custom svg punya semua atribut yg dibawah ini
-
-        <svg width="0" height="0" style="position: absolute;" aria-hidden="true">
-            
-        </svg>
-    -->
 </body>
 </html>

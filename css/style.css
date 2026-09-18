@@ -3,7 +3,9 @@
     --darken-primary-color: #6E1313;
     --semi-darken-primary-color: #B21919;
     --primary-color: #DA3636;
-    --semi-lighten-primary-color: #FFB4B4;
+    --semi-lighten-primary-color: #FF8C8C;
+    --almost-lighten-primary-color: #FFB4B4;
+    --lighten-primary-color: #FFD1D1;
 
     /* SECONDARY COLOR (BLUE) */
     --darken-secondary-color: #034D81;
@@ -42,10 +44,6 @@
     --common-shadow-top: 0.25rem;
     --common-border-width: 0.25rem;
     --common-box-shadow: var(--common-shadow-left) var(--common-shadow-top) var(--shadow-color);
-
-    /* DEFAULT FOR GEOMETRY AVOID FAILURE */
-    --ps: 0;
-    --doubled-border-width: 0;
 }
 
 html, body {
@@ -448,7 +446,6 @@ footer {
     );
 
     grid-column: 1;
-    grid-row: 17 / 19;
     padding: calc(var(--ontop-footer-padding) + 2rem) 4rem 2rem 4rem;
     display: flex;
     background-color: var(--white-color);
@@ -512,5 +509,4 @@ section#social-media-button-container {
             clip-path: url("#linktree-icon-clip-path");
         }
     }
-
 }
