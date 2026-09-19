@@ -50,7 +50,7 @@ div#card {
 
     & > div.content {
         padding: 3rem;
-        padding-top: 5.5rem;
+        padding-top: 6rem;
         display: flex;
         flex-direction: column;
         row-gap: 2.5rem;

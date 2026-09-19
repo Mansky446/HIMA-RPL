@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/font.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/home.css">
+    <script defer src="js/navigation.js"></script>
 </head>
 <body>
     <header>
@@ -20,10 +21,10 @@
         <nav id="big-nav-bar" class="custom-geometry shadowed bordered">
             <div class="content">
                 <button disabled>HOME</button>
-                <button>ABOUT</button>
-                <button>DIVISION</button>
-                <button>PROJECT & NEWS</button>
-                <button>MINI GAMES</button>
+                <button onclick="movePageTo('about')">ABOUT</button>
+                <button onclick="movePageTo('division')">DIVISION</button>
+                <button onclick="movePageTo('news')">PROJECT & NEWS</button>
+                <button onclick="movePageTo('mini-games')">MINI GAMES</button>
             </div>
         </nav>
         <section>
@@ -173,8 +174,7 @@
                 <section id="news-container">
                     <div class="news-card custom-geometry shadowed bordered">
                         <div class="content">
-                            <div>
-                                <img src="">
+                            <div style="--img-src: url('https://news.bsi.ac.id/wp-content/uploads/2026/05/photo21-5.png');">
                             </div>
                             <div>
                                 <h5>JUARA LOMBA FILM PENDEK DI PIKMI 2026</h5>
@@ -201,6 +201,16 @@
                             <div>
                                 <h5>WORKSHOP MACHINE LEARNING 2024</h5>
                                 <p>Memperkenalkan dasar kecerdasan buatan bagi masa depan teknologi.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news-card custom-geometry shadowed bordered">
+                        <div class="content">
+                            <div style="--img-src: url('https://news.bsi.ac.id/wp-content/uploads/2026/05/photo21-5.png');">
+                            </div>
+                            <div>
+                                <h5>JUARA LOMBA FILM PENDEK DI PIKMI 2026</h5>
+                                <p>Tim KaKev suskses meraih Juara Penulis Naskah Terbaik Lomba Film Pendek.</p>
                             </div>
                         </div>
                     </div>

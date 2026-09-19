@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/font.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/about.css">
+    <script defer src="js/navigation.js"></script>
 </head>
 <body>
     <header>
@@ -19,11 +20,11 @@
         </section>
         <nav id="big-nav-bar" class="custom-geometry shadowed bordered">
             <div class="content">
-                <button>HOME</button>
+                <button onclick="movePageTo('home')">HOME</button>
                 <button disabled>ABOUT</button>
-                <button>DIVISION</button>
-                <button>PROJECT & NEWS</button>
-                <button>MINI GAMES</button>
+                <button onclick="movePageTo('division')">DIVISION</button>
+                <button onclick="movePageTo('news')">PROJECT & NEWS</button>
+                <button onclick="movePageTo('mini-games')">MINI GAMES</button>
             </div>
         </nav>
         <section>

@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HRPL</title>
     <link rel="stylesheet" href="css/font.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/mini-games.css">
+    <link rel="stylesheet" href="css/news.css">
     <script defer src="js/navigation.js"></script>
 </head>
+
 <body>
     <header>
         <section class="hrpl-logo">
@@ -17,15 +19,15 @@
                 <h4>HRPL UBSI</h4>
                 <h6>Himpunan Mahasiswa Rekayasa Perangkat Lunak</h6>
             </div>
-            
+
         </section>
         <nav id="big-nav-bar" class="custom-geometry shadowed bordered">
             <div class="content">
                 <button onclick="movePageTo('home')">HOME</button>
                 <button onclick="movePageTo('about')">ABOUT</button>
                 <button onclick="movePageTo('division')">DIVISION</button>
-                <button onclick="movePageTo('news')">PROJECT & NEWS</button>
-                <button disabled>MINI GAMES</button>
+                <button disabled>PROJECT & NEWS</button>
+                <button onclick="movePageTo('mini-games')">MINI GAMES</button>
             </div>
         </nav>
         <section>
@@ -34,25 +36,77 @@
     </header>
     <main>
         <section id="body-container">
-            <div id="card" class="custom-geometry shadowed bordered">
-                <div class="content">
-                    <section>
-                        <div>
-                            <h2>Hai, RPLearners!!</h2>
-                            <p>Udah siap menentukan di Divisi mana yang "KAMU BANGET?"</p>
-                            <p>YUK LANGSUNG MULAI AJA! 🚀</p>
-                        </div>
-                        <img src="images/maskot-finder-bordered.png" alt="">
-                    </section>
-                    <button id="play-mini-game-button" class="custom-geometry shadowed bordered custom-button" onclick="movePageTo('questions')">
-                        <div class="content"><p class="silkscreen-font-adjusted">PLAY MINI GAME</p><span class="pixelated-arrow"></span></div>
-                    </button>
-                    <section>
-                        <p>⏱️ 15 pertanyaan · 🎁 Ada hadiah di akhir!</p>
-                    </section>
-                </div>
+            <div>
+                <h2>HRPL NEWS</h2>
             </div>
+            <section id="news-container">
+                <div class="news-card custom-geometry shadowed bordered">
+                    <div class="content">
+                        <div style="--img-src: url('https://news.bsi.ac.id/wp-content/uploads/2026/05/photo21-5.png');">
+                        </div>
+                        <div>
+                            <h5>JUARA LOMBA FILM PENDEK DI PIKMI 2026</h5>
+                            <p>Tim KaKev suskses meraih Juara Penulis Naskah Terbaik Lomba Film Pendek.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="news-card custom-geometry shadowed bordered">
+                    <div class="content">
+                        <div>
+                            <img src="">
+                        </div>
+                        <div>
+                            <h5>PENGABDIAN KEPADA MASYARAKAT 2025</h5>
+                            <p>Turun ke masyarakat meningkatkan literasi digital dan mencegah cybercrime.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="news-card custom-geometry shadowed bordered">
+                    <div class="content">
+                        <div>
+                            <img src="">
+                        </div>
+                        <div>
+                            <h5>WORKSHOP MACHINE LEARNING 2024</h5>
+                            <p>Memperkenalkan dasar kecerdasan buatan bagi masa depan teknologi.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="news-card custom-geometry shadowed bordered">
+                    <div class="content">
+                        <div style="--img-src: url('https://news.bsi.ac.id/wp-content/uploads/2026/05/photo21-5.png');">
+                        </div>
+                        <div>
+                            <h5>JUARA LOMBA FILM PENDEK DI PIKMI 2026</h5>
+                            <p>Tim KaKev suskses meraih Juara Penulis Naskah Terbaik Lomba Film Pendek.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="news-card custom-geometry shadowed bordered">
+                    <div class="content">
+                        <div>
+                            <img src="">
+                        </div>
+                        <div>
+                            <h5>PENGABDIAN KEPADA MASYARAKAT 2025</h5>
+                            <p>Turun ke masyarakat meningkatkan literasi digital dan mencegah cybercrime.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="news-card custom-geometry shadowed bordered">
+                    <div class="content">
+                        <div>
+                            <img src="">
+                        </div>
+                        <div>
+                            <h5>WORKSHOP MACHINE LEARNING 2024</h5>
+                            <p>Memperkenalkan dasar kecerdasan buatan bagi masa depan teknologi.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </section>
+
         <footer>
             <section>
                 <section class="hrpl-logo">
